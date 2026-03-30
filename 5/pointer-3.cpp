@@ -8,4 +8,17 @@ int main(int argc, char *argv[])
 	int *p;
 	int i;
 
-	for (i=0; i<BUFLEN; ) // 이것도 복습 
+	for (i=0; i<BUFLEN; i++ ) // 이것도 복습 
+		arr[i] = 10-i;
+	
+	p = arr + 2;
+
+	cout << "arr[2] = " << arr[2] << endl;
+	cout << "arr+2 = " << arr+2 << endl;
+	cout << "*(arr+2) = " << *(arr+2) << endl;
+	cout << "p = " << p << endl;
+        cout << "*p = " << *p << endl;
+
+	return 0;
+}
+

@@ -12,4 +12,13 @@ int main(int argc, char *argv[])
 	
 	a = 5;
 	p = &a; // 이 뒤부터 복습하면서 이해하세요
+        cout << "a = " << a << endl;
+	cout << "p = " << p << endl;
 
+	*p = 10;
+	
+	cout << " a = " << a << endl;
+	cout << "p = " << p << endl;
+
+	return 0;
+}

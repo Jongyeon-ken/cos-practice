@@ -1,6 +1,6 @@
 #include<iostream>
 #define BUFLEN 10
-using namespace srd;
+using namespace std;
 
 int main(int argc, char *argv[])
 {
@@ -8,3 +8,11 @@ int main(int argc, char *argv[])
 	char str2[6] = {'w', 'o', 'r', 'l', 'd', 0};
 	char *p;
 	//여기서부터도 복습
+	p = str1 + 1;
+
+	cout << "str1 = " << str1 << endl;
+	cout << "str2 = " << str2 << endl;
+	cout << "p = " << p << endl;
+
+	return 0;
+}
