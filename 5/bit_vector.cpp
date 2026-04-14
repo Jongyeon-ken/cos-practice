@@ -1,5 +1,5 @@
 #include <cstdio>
-#include <cstdlib>햣
+#include <cstdlib>
 #include <cstring>
 ##include
 #define BIT_VECTOR_LENGTH 4
@@ -14,7 +14,9 @@ unsigned int b2u(char *bv);
 int b2s(char *bv);
 int b2o(char *bv);
 int b2t(char *bv);
-
+void bit_addition(char *bv1, char *bv2, char *result);
+unsigned int unsigned_addition(char *bv1, char *bv2);
+int twos complement addition(char *bv1)
 
 int main(int argc, char *argv[])
 {
